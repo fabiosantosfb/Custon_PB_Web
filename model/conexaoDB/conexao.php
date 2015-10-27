@@ -6,8 +6,8 @@
  * and open the template in the editor.
  */
 $server = 'debian-fb';
-$usuario = 'root';
-$senha = 'debian2812debian';
+$usuario = 'user';
+$senha = '';
 $banco = 'DB_Cliente_CustonPB';
 
 $link = mysql_connect($server,$usuario,$senha);
