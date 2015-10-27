@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+.search {
+	/*background-color: #C6FFC6;*/
+	background-image: linear-gradient(to bottom, white, #79BA18);
+	width: auto;
+	height: auto;
+	border-radius: 10px 60px;
+	border:solid 2px #69BA29;
+        padding-bottom: 10px;
+/*	-moz-border-radius: 10px 30px;
+	-webkit-border-radius: 10px 30px; */ 	
+}
+#search_title a{
+	color: #fff;
+	padding: 5px 50px;
+	text-decoration: none;
+	border: solid 1px #fff;
+	border-radius: 5px;
+	background-color: #69BA29;
+}
+
+.custom {
+        border:solid 1px #69BA29;
+	width: 180px;
+	margin-left: 2%;
+	height: 35px;
+	border-radius: 5px;
+}
+#imgsearch {
+	background-image: url(../imagens/busca.png);
+	background-repeat: no-repeat;
+	width: auto;
+	height: 25px;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+#imgselected {
+	margin-left: 40%;	
+}
+
+#search_title {
+        position: relative;
+	left: 45%;
+	top: 25%;
+	width: 8%;		
+	font-family:"Comic Sans MS", cursive;
+	font-size: 20px;
+}
+
+
